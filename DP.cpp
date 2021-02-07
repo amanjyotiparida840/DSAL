@@ -16,7 +16,7 @@
 //}
 //
 //int main(){
-//	int array[]={1,2,3,40,5};
+//	int array[]={1,2,3,4,5};
 //    cout<<sort(array,5)<<endl;
 //	return 0;
 //}
@@ -68,6 +68,7 @@
 //	return a*power(a,b-1);
 //}
 //int main(){
+//	
 //	return 0;
 //}
 
@@ -80,18 +81,18 @@
 //{
 //	if(a==1){
 //		cout<<a<<endl;
-//		return a;
+//		return 0;
 //	}
 //	
 //    
 //	cout<<a<<endl;
 //	fun(a-1);
-//	return a;
+//	return 0;
 //
 //}
 //int main(){
 //	
-//	cout<<fun(5)<<endl;
+//	fun(5);
 //	return 0;
 //}
 
@@ -104,7 +105,7 @@
 //{
 //	if(a==1){
 //
-//		return 0;
+//		return 0 ;
 //       }
 //    if(a%2!=0)
 //    {
@@ -116,7 +117,7 @@
 //}
 //int main(){
 //	
-//	cout<<fun(10000000)<<endl;
+//	cout<<fun(10)<<endl;
 //	return 0;
 //}
 
@@ -124,34 +125,6 @@
 
 
 
-//# include<iostream>
-//using namespace std;
-//int main()
-//{
-//	int k;
-//	for(int i=1;i<=4;i++)
-//	{
-//		k=1;
-//		for(int j=1;j<=7;j++)
-//		{
-//		
-//			if(j>=5-i && j<=3+i)
-//			{
-//			 cout<<k;
-//			 j<4?k++:k--;
-//			}
-//			
-//			else{
-//				cout<<" ";
-//			}
-//			
-//		
-//		}
-//		cout<<endl;
-//		
-//	}
-//return 0;	
-//}
 
 
 
@@ -160,31 +133,12 @@
 
 
 
-#include<iostream>
-using namespace std;
 
-int main()
-{
-	for(int i=1;i<=4;i++)
-	{
-		for(int j=1;j<=9;j++)
-		{
-			if (j>=5-i && j<=5+i)
-			if (i==1)
-			{
-				cout<<"*";
-			}
-			if(i%2==0 && j%2!=0)
-			cout<<"*";
-			if(i%2!=0 && j%2==0)
-			cout<<"+";
-			else
-			cout<<" ";
-		}
-		cout<<endl;
-	}
-	return 0;
-}
+
+
+
+
+
 
 
 

@@ -72,12 +72,6 @@ void insertion_sort(int arr[],int size)
 
 
 
-
-
-
-
-
-
 int main()
 {
 int arr[]={5787,424456,367,2000,1987};

@@ -56,40 +56,40 @@
 
 //This program is not complete
 
-#include<bits/stdc++.h>
-using namespace std;
-
-int main()
-{   priority_queue <int, vector<int>, greater<int> > minheap;
-    vector<int> vect; 
-	int arr[]={3 ,4 ,24 ,26 ,44 ,41 ,86};    
-	int size=sizeof(arr)/sizeof(int);
-	int k=2;
-	for(int i=0;i<size;i++)
-	{  
-		    minheap.push(arr[i]);
-			if(minheap.size()>k)
-			{
-			 vect.push_back(minheap.top());
-			 minheap.pop();
-			}
-			
-	}
-
-	
-while(minheap.size()>0)
-{   vect.push_back(minheap.top());
-	minheap.pop();
-}
-     
-	 
-for (int i=0;i<vect.size();i++)
-{
-	cout<<vect[i]<<" ";
-}	    
-
-	return 0;
-}
+//#include<bits/stdc++.h>
+//using namespace std;
+//
+//int main()
+//{   priority_queue <int, vector<int>, greater<int> > minheap;
+//    vector<int> vect; 
+//	int arr[]={3 ,4 ,24 ,26 ,44 ,41 ,86};    
+//	int size=sizeof(arr)/sizeof(int);
+//	int k=2;
+//	for(int i=0;i<size;i++)
+//	{  
+//		    minheap.push(arr[i]);
+//			if(minheap.size()>k)
+//			{
+//			 vect.push_back(minheap.top());
+//			 minheap.pop();
+//			}
+//			
+//	}
+//
+//	
+//while(minheap.size()>0)
+//{   vect.push_back(minheap.top());
+//	minheap.pop();
+//}
+//     
+//	 
+//for (int i=0;i<vect.size();i++)
+//{
+//	cout<<vect[i]<<" ";
+//}	    
+//
+//	return 0;
+//}
 
 
 
@@ -125,6 +125,31 @@ for (int i=0;i<vect.size();i++)
 //	
 //	return 0;
 //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -3,22 +3,49 @@
 using namespace std;
 int main()
 {
-int a[]={60, 5, 40, 3, 2, 1};
+int a[]={60, 500, 40, 3, 2, 1};
 int size=sizeof(a)/sizeof(int);
-int key=0;
-for(int i=0;i<size;i++)
+int key=-3333;
+for(int i=0;i<size-1;i++)
 {   
-for(int j=size-1;j>i;j--)
+   if(a[i]>a[i+1])
+   {
+   	key=max(key,a[i]);
+   }
+}
+int index=0;
+for(int i=0;i<size;i++)
 {
-	if(a[j]>a[i] && key<j-i)
+	if(key==a[i])
 	{
-		key=j-i;
-		
+		index=i;
+		break;
 	}
 }
-}
-
+cout<<index;
 cout<<key;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -95,35 +95,35 @@
 
 
 
-#include<iostream>
-#include<vector>
-using namespace std;
-int main()
-{
-       int a[]={1,2,3,4,5};
-       int size=5;
-       int rotate_element=2;
-         for(int i=0;i<rotate_element;i++)
-		  {
-		  	while(i<size-1)
-		  	{
-		  	   int temp=a[i];
-			   a[i]=a[i+1];
-			   a[i+1]=temp;	
-			}
-			int temp2=a[i+1];
-			a[i+1]=a[i];
-			a[i]=temp2;
-		  }
-	 
-		for(int i=0;i<size;i++)
-		{
-			cout<<a[i];
-		}
-
-        
-    return 0;
-}
+//#include<iostream>
+//#include<vector>
+//using namespace std;
+//int main()
+//{
+//       int a[]={1,2,3,4,5};
+//       int size=5;
+//       int rotate_element=2;
+//         for(int i=0;i<rotate_element;i++)
+//		  {
+//		  	while(i<size-1)
+//		  	{
+//		  	   int temp=a[i];
+//			   a[i]=a[i+1];
+//			   a[i+1]=temp;	
+//			}
+//			int temp2=a[i+1];
+//			a[i+1]=a[i];
+//			a[i]=temp2;
+//		  }
+//	 
+//		for(int i=0;i<size;i++)
+//		{
+//			cout<<a[i];
+//		}
+//
+//        
+//    return 0;
+//}
 
 
 
